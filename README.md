@@ -63,11 +63,11 @@ Please zip and email your solution to `ethan@peakdata.com`. We will confirm your
 Building the Docker image:
 
 ```
-docker build -t data_engineering_hiring .
+docker build -t name_matching_problem .
 ```
 Running the command terminal inside the container
 ```
-docker run -v $(pwd):/unique_people_etl -it data_engineering_hiring bash
+docker run -v $(pwd):/unique_people_etl -it name_matching_problem bash
 ```
 Executing the code:
 ```
